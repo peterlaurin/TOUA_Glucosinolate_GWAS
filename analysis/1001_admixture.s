@@ -45,9 +45,13 @@ mkdir 1001
 cd 1001
 for i in {1..15}; do cp admixture$i/*.P ./
 
+
 #find snps around window
 cp ../1001_pop_strat_windows.sh ./
 bash 1001_pop_strat_windows.sh
+
+#generate positions for P files 
+tail -n +11 1001_genomes_LD_filter.vcf | cut -f 3 > SNP_ids.txt
 
 cd ..
 

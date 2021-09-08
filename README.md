@@ -10,13 +10,13 @@ Files included in repo so far:
 
 2. snp_comp.R - short R script demonstrating SNP comparisons used in paper
 
-3. 1001_admixture.s - generate pruned marker set for ADMIXTURE (1001 Genomes)
+3. 1001_admixture.s - generate pruned marker set, run ADMIXTURE, and extract snp windows (1001 Genomes)
 
 	- 1001_batch_admixture.s - array job script to run ADMIXTURE (K=1-15)
 
 	- 1001_pop_strat_windows.sh - extract pruned marker set for 100KB regions around GWAS-inferred loci
 
-4. TOUA_admixture.s - generate pruned marker set for ADMIXTURE (TOUA) 
+4. TOUA_admixture.s - generate pruned marker set, run ADMIXTURE, and extract snp windows (TOUA) 
 
 	- TOUA_batch_admixture.s - array job script to run ADMIXTURE (K=1-15)
 
@@ -58,4 +58,5 @@ Files included in repo so far:
 
 2. alleleFreq_and_TD_plots.R - R script to generate figure 1b, 1c - allele frequency spectrum and Tajima's D
 
+3. population_stratifcation_plots.R - R script to generate figure S7 - divergence in allele frequency...
 

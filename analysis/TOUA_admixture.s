@@ -43,4 +43,7 @@ for i in {1..15}; do cp admixture$i/*.P ./
 cp ../TOUA_pop_strat_windows.sh ./
 bash TOUA_pop_strat_windows.sh
 
+#generate positions for P files 
+tail -n +11 TOUA_LD_fil_new.vcf | cut -f 3 > SNP_IDs.txt
+
 cd ..
