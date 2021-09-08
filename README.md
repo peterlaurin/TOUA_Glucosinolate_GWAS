@@ -14,9 +14,13 @@ Files included in repo so far:
 
 	- 1001_batch_admixture.s - array job script to run ADMIXTURE (K=1-15)
 
+	- 1001_pop_strat_windows.sh - extract pruned marker set for 100KB regions around GWAS-inferred loci
+
 4. TOUA_admixture.s - generate pruned marker set for ADMIXTURE (TOUA) 
 
 	- TOUA_batch_admixture.s - array job script to run ADMIXTURE (K=1-15)
+
+	- TOUA_pop_strat_windows.sh - extract pruned marker set for 100KB regions around GWAS-inferred loci
 
 5. 1001allele_freq_boss.sh - runs several helper scripts to downsample alleles and calculate af (1001 Genomes)
 
@@ -40,5 +44,18 @@ Files included in repo so far:
 
 	- TOUA_header.txt - simplified vcf header for TOUA vcf
 
+8. geo_boss.sh - Script to run array, parallelize distance calculations between accessions in Katz et al.
+
+	- ed_calc_worker.s - array job script which runs part of geo_fig_batch.R
+
+	- geo_fig_batch.R - R script to calculate (part) of Haversine distances between accessions
+
+
+
 #### Plots
+
+1. geo_plot.R - R script to generate figure 1a - proportion of non-matching GSL chemotypes
+
+2. alleleFreq_and_TD_plots.R - R script to generate figure 1b, 1c - allele frequency spectrum and Tajima's D
+
 
