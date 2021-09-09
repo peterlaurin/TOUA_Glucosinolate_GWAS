@@ -1,0 +1,26 @@
+# For reproducibility, add version numbers to "module load" calls.
+module load gcc/6.2.0
+module load gemma/0.98.1
+module load gsl/2.3
+
+# TOU-A indolic glucosinolates: phenotype_column   molecule
+#   14 BlupGIM
+#   15 BlupG1MOIM
+#   16 BlupG4HIM
+#   17 BlupG4MOIM
+
+# mvLMM
+gemma \
+ -lmm 1 -maf 0.03 -miss 0.1 \
+ -bfile genotypes/genotype_prefix \
+ -k output/dat_tot_forGemma_kmat.cXX.txt \
+ -p dat_tot_forGemma.csv \
+ -n 14 15 16 17 \
+ -o mvlmm_maf03
+ 
+
+ 
+
+
+ 
+ 

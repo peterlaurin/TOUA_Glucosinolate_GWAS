@@ -1,0 +1,17 @@
+# For reproducibility, add version numbers to "module load" calls.
+module load gcc/6.2.0
+module load gemma/0.98.1
+module load gsl/2.3
+
+# Univariate LMM example, phenotype column #1
+# (repeat for each of "n" columns in phenotype file)
+# (remove "-miss 0.1" to default to "-miss 0.05" for non-TOU panels)
+gemma \
+ -lmm 1 -maf 0.03 -miss 0.1 \
+ -bfile genotypes/genotype_prefix \
+ -k  -dat_tot_forGemma_kmat.cXX.txt \
+ -p dat_tot_forGemma.csv \
+ -n 1 \
+ -o lmm_maf03_ratio1
+
+ 

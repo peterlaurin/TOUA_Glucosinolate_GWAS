@@ -1,0 +1,13 @@
+# For reproducibility, add version numbers to "module load" calls.
+module load gcc/6.2.0
+module load gemma/0.98.1
+module load gsl/2.3
+
+# Compute kinship matrix
+# (remove "-miss 0.1" to default to "-miss 0.05" for non-TOU panels)
+
+gemma -gk 1 -miss 0.1 \
+ -bfile genotypes/genotype_prefix \
+ -p dat_tot_forGemma.csv \
+ -o dat_tot_forGemma_kmat
+
