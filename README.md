@@ -81,11 +81,11 @@ Files included in repo so far:
 
 #### Phenotypic Analyses and GWAS Prep (other panels: Brachi, Katz, Wu datasets)
 
-1. script_<DatasetName>_parseGlucPhenotypes.R - parse raw data from the published dataset indicated by <DatasetName> (for all datasets), fit LMMs with covariates to get heritability estimates and per-accession BLUPs for each glucosinolate molecule (for Brachi and Katz only)
+1. script_\<DatasetName\>_parseGlucPhenotypes.R - parse raw data from the published dataset indicated by \<DatasetName\> (for all datasets), fit LMMs with covariates to get heritability estimates and per-accession BLUPs for each glucosinolate molecule (for Brachi and Katz only)
 
-2. script_<DatasetName>_prepForGemma.R - Reformat BLUPs (Brachi, Katz) or “means” (i.e., the single technical replicate reported per sample by Wu, which can be considered a mean of all the biological replicates pooled within in) to prep input phenotype file for downstream GWAS using GEMMA
+2. script_\<DatasetName\>_prepForGemma.R - Reformat BLUPs (Brachi, Katz) or “means” (i.e., the single technical replicate reported per sample by Wu, which can be considered a mean of all the biological replicates pooled within in) to prep input phenotype file for downstream GWAS using GEMMA
 
-3. script_<DatasetName>_prepForGemmaRatios.R - Transform BLUPs back to original (linear) scale phenotypes, then calculate log2(ratios) of precursor:product abundances and prep input phenotype file for downstream GWAS using GEMMA
+3. script_\<DatasetName\>_prepForGemmaRatios.R - Transform BLUPs back to original (linear) scale phenotypes, then calculate log2(ratios) of precursor:product abundances and prep input phenotype file for downstream GWAS using GEMMA
 
 #### Running GWAS
 
