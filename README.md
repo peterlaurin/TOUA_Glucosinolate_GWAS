@@ -4,7 +4,7 @@ Script (and partial data) repository for Gloss et al. 2021 "Genome-wide associat
 
 Files included in repo so far:
 
-#### Population Genomic Analysis 
+### Population Genomic Analysis 
 
 1. **vcf_subset.s** - subset 1001G and TOUA for snp comparison, future analyses
 
@@ -52,7 +52,7 @@ Files included in repo so far:
 
 
 
-#### Population Genomic Plots
+### Population Genomic Plots
 
 1. **geo_plot.R** - R script to generate figure 1a - proportion of non-matching GSL chemotypes
 
@@ -61,7 +61,7 @@ Files included in repo so far:
 3. **population_stratifcation_plots.R** - R script to generate figure S7 - divergence in allele frequency...
 
 
-#### Glucosinolate Profiling
+### Glucosinolate Profiling
 
 1. **functions_metaboliteQuantification.R** - Defines and describes custom R functions, which utilize various functions within xcms and related packages, for the peak quantification pipeline implemented in downstream scripts
 
@@ -71,7 +71,7 @@ Files included in repo so far:
 
 4. **script_compareSliceAndPeakPicking.R** - Production of plots comparing xcms peak integration and custom “slice” integration, included as Supplementary Note Fig. 2a
 
-#### Phenotypic Analyses and GWAS Prep (TOU-A)
+### Phenotypic Analyses and GWAS Prep (TOU-A)
 
 1. **script_TOU_heritability.R** - Load raw phenotype data, fit LMMs with covariates to get heritability estimates and per-accession BLUPs for each glucosinolate molecule
 
@@ -79,7 +79,7 @@ Files included in repo so far:
 
 3. **script_TOU_BLUPs2ratios4Gemma.R** - Transform BLUPs back to original (linear) scale phenotypes, then calculate log2(ratios) of precursor:product abundances and prep input phenotype file for downstream GWAS using GEMMA
 
-#### Phenotypic Analyses and GWAS Prep (other panels: Brachi, Katz, Wu datasets)
+### Phenotypic Analyses and GWAS Prep (other panels: Brachi, Katz, Wu datasets)
 
 1. **script_\<DatasetName\>_parseGlucPhenotypes.R** - parse raw data from the published dataset indicated by \<DatasetName\> (for all datasets), fit LMMs with covariates to get heritability estimates and per-accession BLUPs for each glucosinolate molecule (for Brachi and Katz only)
 
@@ -87,7 +87,7 @@ Files included in repo so far:
 
 3. **script_\<DatasetName\>_prepForGemmaRatios.R** - Transform BLUPs back to original (linear) scale phenotypes, then calculate log2(ratios) of precursor:product abundances and prep input phenotype file for downstream GWAS using GEMMA
 
-#### Running GWAS
+### Running GWAS
 
 1. **script_GWAS_kinship.txt**  - Kinship calculated for GWAS using GEMMA
 
@@ -95,7 +95,7 @@ Files included in repo so far:
 
 3. **script_GWAS_mvlmm.txt** - Multi-trait GWAS using GEMMA (mvLMM)
 
-#### Parsing / Analyzing GWAS 
+### Parsing / Analyzing GWAS 
 
 1. **GS_OX1_plots.R** - R script to generate Figure S6 - Associations at a minor variant near GS-OX1 
 
