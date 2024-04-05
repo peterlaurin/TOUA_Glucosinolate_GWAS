@@ -1,8 +1,8 @@
 # TOUA_Glucosinolate_GWAS
 
-Script (and partial data) repository for Gloss et al. 2021 "Genome-wide association mapping within a single Arabidopsis thaliana population reveals a richer genetic architecture for defensive metabolite diversity"
+Script (and partial data) repository for Gloss et al. 2021 [https://doi.org/10.1098/rstb.2020.0512]("Genome-wide association mapping within a local *Arabidopsis thaliana* population more fully reveals the genetic architecture for defensive metabolite diversity")
 
-Files included in repo so far:
+Files included in repo:
 
 ### Population Genomic Analysis 
 
@@ -99,4 +99,38 @@ Files included in repo so far:
 
 1. **GS_OX1_plots.R** - R script to generate Figure S6 - Associations at a minor variant near GS-OX1 
 
-*** ADDITIONAL SCRIPTS - UPLOAD IN PROGRESS *** 
+### Phenotypic Comparisons
+
+1. **script_corrPlots.R** - Creates plot showing correlation between per-accession BLUPs for each glucosinolate molecule within a given study (i.e., within TOU-A, Brachi, Katz, or Wu datasets).
+
+2. **script_compareHeritability.R** - Creates plot comparing heritability values per molecule in TOU-A vs. Katz and Brachi.
+
+### Post-GWAS Analysis
+
+1. **script_quantifyGenomicInflation.R** - Calculate genomic inflation for each GWAS based on median P-values, and also extract observed P-values at different percentile rankings of the p-value distribution.
+
+2. **script_defineLocusBoundaries.R** - Define locus boundaries around each glucosinolate biosynthetic gene. These extended windows will be considered the "gene regions" for downstream analysis of GWAS output, e.g. to associate significant SNPs with biosynthetic genes.
+
+3. **script_getSnpsNearCandidateGenes.R** - Determine candidate SNPs by assigning SNPs to glucosinolate biosynthetic genes, if SNPs are within boundaries as specified in script_defineLocusBoundaries.R.
+
+4. **script_combineGwasWideFormat.R** - Merges all GWAS output files within specified directories so that p-values for each GWAS are listed in the same table (rows = SNPs, columns = GWAS analyses)
+
+5. **script_countSigSNPsPerLocus.R** - Tallies up the number of significant SNPs and the top p-value by candidate gene for each trait in a the merged p-value table created by script_combineGwasWideFormat.R.
+
+6. **script_topSNPbarplots.R** - Creates barplot comparing top p-value per gene across each dataset (Tou-A, Brachi, Katz, Wu) as shown in supplementary figure.
+
+7. **script_EffectSizeComparison_GWAS.R** - Creates heatmap of GWAS effect sizes in the TOU-A population for the leading SNP at each locus for each glucosinolate molecule.
+
+8. **script_effectSizeComparison_bcat3.R** - Creates plot comparing effects of the BCAT3 mutant with GWAS effect sizes for the leading SNP at the the BCAT3 locus 
+
+9. **script_ManhattansForFigures.R** - Create Manhattan plots showing top p-value per SNP across all combined traits (glucosinolate molecules) within a molecule class (e.g., aliphatic glucosinolates), highlighting SNPs inside candidate gene windows.
+
+10. **script_qqPlots.R** - Creates qq-plots for selected GWAS shown in supplementary material.
+
+11. **script_local_manhattan.R** - Creates local Manhattan plots for the candidate regions harboring significant SNPs as shown in supplementary material.
+
+12. **script_PVE_Table.R** - Creates table of percent variance explained (PVE) for leading SNPs.
+
+### Input/Output Files
+
+Input and output files from some of the scripts that are not in the Dryad repository or straightforward to obtain in the proper format from the sources cited in the manuscript. Large files, like modified GWAS output, are either in the Dryad repository directly or can be regenerated from files in the repository.

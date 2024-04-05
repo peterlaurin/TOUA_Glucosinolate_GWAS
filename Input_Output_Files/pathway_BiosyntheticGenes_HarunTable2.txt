@@ -1,0 +1,86 @@
+number	gene_id	gene_abbreviation	gene_name	process	sub_process	aliphatic	indolic	notes
+1	AT5G23010	MAM1	methylthioalkylmalate synthase 1	Biosynthesis	Side-Chain Elongation	yes	no	
+2	AT5G23020	MAM3	methylthioalkylmalate synthase 3	Biosynthesis	Side-Chain Elongation	yes	no	
+3	AT3G49680	BCAT3	branched-chain amino acid aminotransferase 3	Biosynthesis	Side-Chain Elongation	yes	no	
+4	AT3G19710	BCAT4	branched-chain amino acid aminotransferase 4	Biosynthesis	Side-Chain Elongation	yes	no	
+5	AT1G50110	BCAT6	branched-chain amino acid aminotransferase 6	Biosynthesis	Side-Chain Elongation	yes	no	
+6	AT3G58990	IPMI1	isopropylmalate isomerase small subunit 1	Biosynthesis	Side-Chain Elongation	yes	no	
+7	AT4G13430	IIL1	isopropylmalate isomerase large subunit 1	Biosynthesis	Side-Chain Elongation	yes	no	
+8	AT2G43100	IPMI2	isopropylmalate isomerase small subunit 2	Biosynthesis	Side-Chain Elongation	yes	no	
+9	AT5G14200	IMDH1	isopropylmalate dehydrogenase 1	Biosynthesis	Side-Chain Elongation	yes	no	
+10	AT1G16410	CYP79F1	cytochrome P450 79F1	Biosynthesis	Core Structure Synthesis	yes	no	
+11	AT4G13770	CYP83A1	"cytochrome p450, family 83, subfamily a, polypeptide 1"	Biosynthesis	Core Structure Synthesis	yes	no	
+12	AT1G16400	CYP79F2	cytochrome P450 79F2	Biosynthesis	Core Structure Synthesis	yes	no	
+13	AT5G05260	CYP79A2	phenylalanine N-monooxygenase	Biosynthesis_maybe	Core Structure Synthesis			"metabolizes L-Phe, precursor to benzyl GSL, and not L-met/L-trp/L-tyr (https://www.wikigenes.org/e/gene/e/830408.html)"
+14	AT4G39950	CYP79B2	tryptophan N-monooxygenase 1	Biosynthesis	Core Structure Synthesis	no	yes	
+15	AT2G22330	CYP79B3	tryptophan N-monooxygenase 2	Biosynthesis	Core Structure Synthesis	no	yes	
+16	AT4G31500	CYP83B1	CYP83B1 monooxygenase	Biosynthesis	Core Structure Synthesis	no	yes	
+17	AT1G79370	CYP79C1	cytochrome P450 79C1	Biosynthesis	Core Structure Synthesis	yes	no	
+18	AT1G58260	CYP79C2	cytochrome P450 79C2	Biosynthesis	Core Structure Synthesis	yes	no	
+19	AT2G46650	CYTB5C	cytochrome B5 isoform C	Biosynthesis	Core Structure Synthesis			"coexpressed with biosynthetic genes and affects long chain GSLs, but mode of action remains unknown [citation in Harun et al.]"
+20	AT4G30530	GGP1	gamma-glutamyl peptidase 1	Biosynthesis	Core Structure Synthesis	yes	yes	
+21	AT2G30860	GSTF9	glutathione S-transferase F9	Biosynthesis	Core Structure Synthesis	no	yes	
+22	AT2G30870	GSTF10	glutathione S-transferase F10	Biosynthesis	Core Structure Synthesis	no	yes	
+23	AT3G03190	GSTF11	glutathione S-transferase F11	Biosynthesis	Core Structure Synthesis	yes	no	
+24	AT1G27130	GSTU13	glutathione S-transferase U13	Biosynthesis_maybe	Core Structure Synthesis			"authors postulate: ""GSTU13 connects GSH with the pathogen-triggered PEN2 pathway for IG metab"" [citation in Harun et al.]"
+25	AT1G78370	GSTU20	glutathione S-transferase U20	Biosynthesis	Core Structure Synthesis	yes	no	
+26	AT2G20610	SUR1	S-alkyl-thiohydroximate lyase SUR1	Biosynthesis	Core Structure Synthesis	yes	yes	
+27	AT1G24100	UGT74B1	UDP-glycosyltransferase 74B1	Biosynthesis	Core Structure Synthesis	yes	yes	
+28	AT2G31790	UGT74C1	UDP-glycosyltransferase 74C1	Biosynthesis	Core Structure Synthesis	yes	no	
+29	AT1G74100	SOT16	cytosolic sulfotransferase 16	Biosynthesis	Core Structure Synthesis	yes	yes	
+30	AT1G18590	SOT17	cytosolic sulfotransferase 17	Biosynthesis	Core Structure Synthesis	yes	no	
+31	AT1G74090	SOT18	cytosolic sulfotransferase 18	Biosynthesis	Core Structure Synthesis	yes	yes	
+32	AT4G37430	CYP81F1	CYP81F1 monooxygenase	Biosynthesis	Side-Chain Modification	no	yes	
+33	AT5G57220	CYP81F2	CYP81F2 monooxygenase	Biosynthesis	Side-Chain Modification	no	yes	
+34	AT4G37400	CYP81F3	CYP81F3 monooxygenase	Biosynthesis	Side-Chain Modification	no	yes	
+35	AT4G37410	CYP81F4	CYP81F4 monooxygenase	Biosynthesis	Side-Chain Modification	no	yes	
+36	AT1G21100	IGMT1	indole glucosinolate O-methyltransferase 1	Biosynthesis	Side-Chain Modification	no	yes	
+37	AT1G21120	IGMT2	indole glucosinolate O-methyltransferase 2	Biosynthesis	Side-Chain Modification	no	yes	
+38	AT1G76790	IGMT5	indole glucosinolate O-methyltransferase 5	Biosynthesis	Side-Chain Modification	no	yes	
+39	AT1G65860	FMOGS-OX1	flavin-containing monooxygenase 1	Biosynthesis	Side-Chain Modification	yes	no	
+40	AT1G62540	FMOGS-OX2	flavin-containing monooxygenase 2	Biosynthesis	Side-Chain Modification	yes	no	
+41	AT1G62560	FMOGS-OX3	flavin-containing monooxygenase 3	Biosynthesis	Side-Chain Modification	yes	no	
+42	AT1G62570	FMOGS-OX4	flavin-containing monooxygenase 4	Biosynthesis	Side-Chain Modification	yes	no	
+43	AT1G12140	FMOGS-OX5	flavin-containing monooxygenase 5	Biosynthesis	Side-Chain Modification	yes	no	
+44	AT1G12130	FMOGS-OX6	flavin-containing monooxygenase 6	Biosynthesis	Side-Chain Modification	yes	no	
+45	AT1G12160	FMOGS-OX7	flavin-containing monooxygenase 7	Biosynthesis	Side-Chain Modification	yes	no	
+46	AT4G03060	AOP2	2-oxoglutarate-dependent dioxygenase	Biosynthesis	Side-Chain Modification	yes	no	
+47	AT4G03050	AOP3	2-oxoglutarate-dependent dioxygenase	Biosynthesis	Side-Chain Modification	yes	no	
+48	AT2G25450	GSL-OH	2-oxoacid-dependent dioxygenase	Biosynthesis	Side-Chain Modification	yes	no	
+49	AT5G54810	TSB1	tryptophan synthase beta chain 1	Biosynthesis	Cosubstrate Pathways			
+50	AT5G05730	ASA1	anthranilate synthase alpha subunit 1	Biosynthesis	Cosubstrate Pathways			
+51	AT2G14750	APK1	adenylyl-sulfate kinase 1	Biosynthesis	Cosubstrate Pathways			
+52	AT4G39940	APK2	adenylyl-sulfate kinase 2	Biosynthesis	Cosubstrate Pathways			
+53	AT4G23100	GSH1	glutamate cysteine ligase	Biosynthesis	Cosubstrate Pathways			
+54	AT5G27380	GSH2	glutathione synthetase	Biosynthesis	Cosubstrate Pathways			
+55	AT3G22890	APS1	ATP sulfurylase 1	Biosynthesis	Cosubstrate Pathways			
+56	AT4G14680	APS3	ATP-sulfurylase 3	Biosynthesis	Cosubstrate Pathways			
+57	AT4G04610	APR1_	5'-adenylylsulfate reductase 1	Biosynthesis	Cosubstrate Pathways			
+58	AT1G62180	APR2_	5'-adenylylsulfate reductase 2	Biosynthesis	Cosubstrate Pathways			
+59	AT4G21990	APR3_	5'-adenylylsulfate reductase 3	Biosynthesis	Cosubstrate Pathways			
+60	AT4G14880	OASA1	cysteine synthase 1	Biosynthesis	Cosubstrate Pathways			
+61	AT5G65940	CHY1	3-hydroxyisobutyryl-CoA hydrolase 1	Biosynthesis	Cosubstrate Pathways			
+62	AT1G04580	AAO4	aldehyde oxidase 4	Biosynthesis	Cosubstrate Pathways			
+63	AT1G65880	BZO1	benzoyloxy GSL 1	Biosynthesis	Cosubstrate Pathways			
+64	AT3G12203	SCPL17	serine carboxypeptidase-like 17	Biosynthesis	Cosubstrate Pathways			
+65	AT5G26000	TGG1	myrosinase 1	Biosynthesis	GSL Degradation			
+66	AT5G25980	TGG2	myrosinase 2	Biosynthesis	GSL Degradation			
+67	AT1G47600	TGG	myrosinase 4	Biosynthesis	GSL Degradation			
+68	AT1G51470	TGG5	myrosinase 5	Biosynthesis	GSL Degradation			
+69	AT1G54040	ESP	epithiospecifier protein	Biosynthesis	GSL Degradation			
+70	AT3G44310	NIT1	nitrilase 1	Biosynthesis	GSL Degradation			
+71	AT3G44300	NIT2	nitrilase 2	Biosynthesis	GSL Degradation			
+72	AT3G44320	NIT3	nitrilase 3	Biosynthesis	GSL Degradation			
+73	AT5G22300	NIT	nitrilase 4	Biosynthesis	GSL Degradation			
+74	AT3G16400	NSP1	nitrile specifier protein 1	Biosynthesis	GSL Degradation			
+75	AT2G33070	NSP2	nitrile specifier protein 2	Biosynthesis	GSL Degradation			
+76	AT3G16390	NSP3	nitrile specifier protein 3	Biosynthesis	GSL Degradation			
+77	AT3G16410	NSP4	nitrile specifier protein 4	Biosynthesis	GSL Degradation			
+78	AT5G48180	NSP5	nitrile specifier protein 5	Biosynthesis	GSL Degradation			
+79	AT3G09260	PYK10	beta glucosidase 23	Biosynthesis	GSL Degradation			
+80	AT2G44490	PEN2	penetration 2	Biosynthesis	GSL Degradation			
+81	AT1G59870	PEN3	penetration 3	Biosynthesis	GSL Degradation			
+82	AT3G14210	ESM1	epithiospecifier modifier 1	Biosynthesis	GSL Degradation			
+83	AT5G44070	PCS1	phytochelatin synthase	Biosynthesis	GSL Degradation			
+84	AT2G44460	BGLU28	beta-glucosidase 26	Biosynthesis	GSL Degradation			
+85	AT3G60140	BGLU30	beta-glucosidase 30	Biosynthesis	GSL Degradation			
