@@ -1,6 +1,6 @@
 # TOUA_Glucosinolate_GWAS
 
-Script (and partial data) repository for Gloss et al. 2021 [https://doi.org/10.1098/rstb.2020.0512]("Genome-wide association mapping within a local *Arabidopsis thaliana* population more fully reveals the genetic architecture for defensive metabolite diversity")
+Script (and partial data) repository for Gloss et al. 2021 ["Genome-wide association mapping within a local *Arabidopsis thaliana* population more fully reveals the genetic architecture for defensive metabolite diversity"](https://doi.org/10.1098/rstb.2020.0512)
 
 Files included in repo:
 
